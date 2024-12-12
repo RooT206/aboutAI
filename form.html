@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Hall</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="site-title">Site by T.Ramazan</div>
+        <nav>
+        <ul>
+          <li><a href="hall.html" class="nav-icon"><i class="fas fa-home"></i></a>
+            <ul>
+                <li><a href="hall.html">Home</a> </li>
+            </ul>
+        </li>
+
+          <li>
+            <a href="main.html" class="nav-icon"><i class="fas fa-info-circle"></i></a>
+            <ul>
+                <li><a onclick="filterContent('all')">All</a></li>
+                <li><a href="main.html">Introduction</a></li>
+                <li><a onclick="filterContent('benefits')">Benefits</a></li>
+                <li><a onclick="filterContent('risks')">Risks</a></li>
+                <li><a onclick="filterContent('conclusion')">Conclusion</a></li>
+              </ul>
+        </li>
+          <li><a href="form.html" class="nav-icon"><i class="fas fa-edit"></i></a>
+            <ul>
+                <li><a href="form.html">Form</a> </li>
+            </ul>
+        </li>
+          <li><a href="https://wa.me/+77771852572"  class="nav-icon"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        </nav>
+      </header>
+    <div class="container">
+        
+                <div class="content-section">
+
+        <h5 align="left">Чтобы побробовать новый ChatGPT-4 заполните форму</h5>
+
+
+
+
+
+        <form action="" method="" enctype="" autocomplete="">
+            <label for="login">Loqin</label>
+        <input type="text" id="login" name="account" placeholder="Loqin" required>
+         <br>
+        <label for="psw">Password</label>
+        <input type="password" id="psw" name="password" placeholder="Password" required>
+        <br>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" hidden>
+        <br>
+        <p align="left">Ваш пол?</p>
+        <label for="f">Female</label>
+        <input type="radio"
+        name="gender"
+        value="F"
+        id="f">
+        <label for="m">Male</label>
+        <input type="radio"
+        name="gender"
+        value="M"
+        id="m">
+        <br>
+        <p align="left">Если программист, какой язык вы знаете?</p>
+        <label for="c++">с++</label>
+        <input type="checkbox" name="programm"
+        value="c++" id="c++">
+        <label for="java">Java</label>
+        <input type="checkbox" name="programm"
+        value="java" id="java">
+        <br>
+        <p align="left">Время при заполнении формы</p>
+        <input type="date">
+        <input type="time">
+        <input type="month">
+        <input type="week">
+        <br>
+        
+        <input type="tel">
+        <br>
+        <input type="file">
+        <input type="image">
+        <br>
+        
+        <p align="left">Для каких целей вам нужен ИИ?</p>
+        <select name="pr" id="">
+            <option value="c++">Для учебы</option>
+            <option value="java">Для работы</option>
+            <option value="python">Для себя</option>
+        </select>
+        
+        
+        <br>
+        <p align="left">Когда нибудь использовали ИИ? Если да, напишите отзыв</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <button>Send Dates</button>
+        </form>
+
+
+
+
+
+
+
+    </div>
+
+    
+    </div>
+    <footer>Tashenov Ramazan INC.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
